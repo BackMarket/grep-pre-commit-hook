@@ -1,0 +1,1 @@
+# grep-pre-commit-hook
