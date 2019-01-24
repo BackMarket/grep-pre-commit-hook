@@ -1,0 +1,6 @@
+- id: grep-hook
+  name: grep-hook
+  description: "Wrapper over grep, seeks for anti-patterns"
+  entry: gphook
+  language: python
+  types: [python]
