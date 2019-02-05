@@ -36,7 +36,7 @@ def main():
     files = args.files
     pattern = args.pattern
 
-    ret_val = call(["grep", "-E", pattern[0]] + files)
+    ret_val = call(["grep", "-nHo", "-E", pattern[0]] + files)
     sysexit(0 if ret_val == 1 else 1)
 
 
